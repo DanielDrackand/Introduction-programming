@@ -137,7 +137,8 @@ h1{
         font-size: 1500%;
     }
 }
-/*hader*/
+/*Separador*/
+
 .spacer{
     margin-top:9%;
     padding:2%;
@@ -147,4 +148,70 @@ h1{
     color:#f7f4e8;
     background-color: #6bb39b;
 }
+/*hader*/
+.conteiner2{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2%;
+    margin-top: 3%;
+    flex-grow: 1;
+}
+.ConteCen3{
+    width:200px;
+    margin:2%;
+    flex-grow: 1;
+}
+.ConteCen4{
+    width:400px;
+    margin-left:18%;
+}
+.Introb,.Introc{
+    color: #daf3ea;
+    font-family: Manjari;
+    font-size: 1.3rem;
+}
+
+.diagrama{
+    width: 90%;
+    height:90%;
+    margin-left: 20%;
+    margin:1%;
+}
+
+.descriptionb{
+    color: #daf3ea;
+    font-family: Manjari;
+    font-size: 1.3rem;
+    margin:3%;
+}
 /*footer*/
+.Continer3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ConteCen5{
+    width: 100%;
+    height:10%;
+    margin:1%;
+}
+.IntroD{
+    color: #daf3ea;
+    font-size: 1.3rem;
+    font-family: Manjari;
+}
+.vscode-conteiner{
+    background-color: #3075f5;
+    width: 200px;
+    height:50%;
+    padding: 1%;
+    border-radius:100%;
+    margin-left: 70%;
+    margin-top: -3%;
+}
+.vscode-conteiner:active{
+    background-color: red;
+}
+.vscode{
+    width: 90%;
+    height:90%;
+}
