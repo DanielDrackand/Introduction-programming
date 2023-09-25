@@ -9,11 +9,47 @@ colores que debe llevar :
 body{
     background-color:#0b0b0d;
 }
+.Redes-sociales, .Redes-socialesB{
+    display:flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top:-2%;
+}
+/*Hacer que te sigua el menu*/
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    width:100%;
+}
+ul li a{
+    height:10px;
+    position: absolute;
+    display: inline-block;
+}
+.github-icon , .linkedin-icon, .meta-icon{
+    width:50px;
+    height:50px;
+}
+#icon-link{
+    background-color: white;
+    margin-left: 100%;
+}
+#icon-git{
+    background-color:#85e6c0;
+}
+#icon-facebook{
+    background-color:#85e6c0; 
+    margin-left: 200%;
+}
 h1{
     color:white;
     font-size: 500%;
     font-family: Yrsa SemiBold;
-    margin-top: 20%;
+    margin-top: 23%;
     text-align: center;
 }
 .circle1,.circle2, .circle3, .circle4{
@@ -95,7 +131,7 @@ h1{
     color: #daf3ea;
     font-family: Manjari;
     margin:3%;
-    margin-top:5%;
+    margin-top:7%;
     width: 90%;
     font-size: 110%;
 }
@@ -110,7 +146,6 @@ h1{
     }
     .icon{
         margin: 1%;
-        margin-left: -10%;
     }
 }
 /*Animaciones*/
@@ -139,7 +174,6 @@ h1{
 /*Separador*/
 
 .spacer{
-    width:100vw;
     margin-top:6%;
     padding:2%;
     text-align: center;
@@ -190,7 +224,7 @@ h1{
     flex-wrap: wrap;
 }
 .ConteCen5{
-    width: 100%;
+    width: 95%;
     height:10%;
     margin:1%;
 }
@@ -205,11 +239,9 @@ h1{
     height:40%;
     margin-left:30%;
 }
-.sublimetext{
-    font-family: nano;
-    font-style:nano;
-    text-shadow: nano;
-    text-decoration: nano;
+.IntroD .sublimetext{
+    text-decoration: none;
+    color:whitesmoke;
 }
 h3{
     color: #daf3ea;
@@ -227,7 +259,19 @@ h4{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
+    opacity:0;
+    transition: all 1s;
+    margin-top: 4%;
 }
+/*efec scroll*/
+.lenguaje-b{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    transition: all 1s;
+    opacity:1;
+}
+/*fin de efec scroll*/
 .js-icon{
     width: 100px;
     height: 100px;
@@ -253,12 +297,13 @@ h4{
     animation-duration:0.7s;
     animation-iteration-count: infinite;
 }
+/*Rompen el css*/
 .js{
     background-color: rgb(27, 27, 27);
     border: solid 2px rgb(172, 120, 25);
     border-radius:5px;
     color: white;
-    width: 300px;
+    width: 250px;
     margin: 2%;
 }
 .c{
@@ -266,7 +311,7 @@ h4{
     border: solid 2px rgb(118, 25, 172);
     border-radius:5px;
     color:white;
-    width: 400px;
+    width: 325px;
     margin: 2%;
 }
 .java{
@@ -274,7 +319,7 @@ h4{
     border: solid 2px rgb(172, 25, 25);
     border-radius:5px;
     color: white;
-    width: 400px;
+    width: 350px;
     margin: 2%;
 }
 /*Animacion*/
@@ -287,4 +332,190 @@ h4{
         opacity: 1;
     }
 }
-/*recursos agradecer https://www.freepik.es/ , https://www.flaticon.es/*/
+/*final*/
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1%;
+    margin:1%;
+}
+.computadora-img{
+    width:600px;
+    height:200px;
+    opacity:0%;
+    margin-left:10%;
+    transition: all 1s;
+}
+.computadora-img-b{
+    transition: all 1s;
+    width:600px;
+    height:200px;
+}
+/*Añadir anamacion de scroll*/
+.img-pc{
+    width:200px;
+    height:200px;
+    margin-left: 30%;
+}
+h5{
+    color: #daf3ea;
+    font-size: 1.6rem;
+    font-family: Manjari;
+    text-align: center;
+}
+.text-compu{
+    width:500px;
+    height:350px;
+    padding:1%;
+    font-family: Manjari;
+    font-size: 1.3rem;
+    color: #daf3ea;
+    flex-grow: 1;
+    transition: all 1s;
+    opacity:0;
+}
+.text-compu-b{
+    width:500px;
+    height:350px;
+    padding:1%;
+    font-family: Manjari;
+    font-size: 1.3rem;
+    color: #daf3ea;
+    flex-grow: 1;
+    transition: all 1s;
+}
+h6{
+    font-family: Manjari;
+    font-size: 1.6rem;
+    color: #daf3ea;
+    text-align: center;
+}
+.Estancado{
+
+    opacity:0;
+    width:550px;
+    font-family: Manjari;
+    font-size: 1.3rem;
+    color: #daf3ea;
+    flex-grow: 1;
+    margin-right: -1%;
+    transition:all 1s;
+    opacity:0;
+}
+.Estancado-b{
+    width:550px;
+    font-family: Manjari;
+    font-size: 1.3rem;
+    color: #daf3ea;
+    flex-grow: 1;
+    transition:all 1s;
+    opacity:1;
+}
+.img-estancado{
+    border-radius:100%;
+    background-color:orange;
+    width:200px;
+    height:200px;
+    margin-top:10%;
+    margin-left:10%;
+    margin-right: -1%;
+    text-align: center;
+    justify-content: center;
+    transition:all 1s;
+    opacity: 0;
+}
+.img-estancado-b{
+    border-radius:100%;
+    background-color:orange;
+    width:200px;
+    height:200px;
+    margin-top:10%;
+    margin-left:10%;
+    margin-right: 10%;
+    text-align: center;
+    justify-content: center;
+    transition:all 1s;
+    opacity: 1;
+}
+/*Las img se ven raro en celular*/
+.error-404{
+    width:100px;
+    height:100px;
+    flex-grow: 1;
+    justify-content: center;
+}
+.img-documentacion{
+    background-color:white;
+    border-radius:100%;
+    width:200px;
+    height:200px;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 10%;
+    transition:all 1s;
+    opacity: 0;
+}
+.img-documentacion-b{
+    background-color:white;
+    border-radius:100%;
+    width:200px;
+    height:200px;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 5%;
+    transition:all 1s;
+    opacity: 1;
+}
+.imgdoc{
+    margin-top:20%;
+    width:100px;
+    height:100px;
+}
+.Doc{
+    margin-top: 10%;
+    margin-right: 5%;
+    width:400px;
+    height:300px;
+    flex-grow: 1;
+    transition:all 1s;
+    opacity: 0;
+}
+.Doc-b{
+    margin-top: 10%;
+    margin-right: 5%;
+    width:400px;
+    height:300px;
+    flex-grow: 1;
+    font-size: 1.3rem;
+    transition:all 1s;
+    opacity: 1;
+}
+.title6{
+    font-family: Manjari;
+    font-size: 1.6rem;
+    color: #daf3ea;
+    text-align:center;
+}
+.docp{
+    font-family: Manjari;
+    font-size: 1.2rem;
+    color: #daf3ea;
+}
+/*Dedicatoria*/
+footer{
+    background-color: black;
+    font-size: 1.5rem;
+}
+.dedicatoria{
+    margin:5%;
+    color: #a3a3a3;
+    font-size: 1rem;
+    font-family: Manjari;
+}
+/*Redes*/
+
+.Redes-socialesB li {
+    width: 1px;
+}
