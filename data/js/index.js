@@ -31,6 +31,7 @@ function scroll(lim/*limite del scroll*/,name/*name de variable*/,clas1/* clase 
 setTimeout(() => {
     icon.style.opacity = 1;
 },900);
+
 //uso una funcion dentro de la flecha porque tiene parametros la funcion scroll
 window.addEventListener('scroll',() => {
     scroll(600.765625,lenguages,'lenguajes','lenguaje-b');

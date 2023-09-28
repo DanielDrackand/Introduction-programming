@@ -391,8 +391,6 @@ h6{
     text-align: center;
 }
 .Estancado{
-
-    opacity:0;
     width:550px;
     font-family: Manjari;
     font-size: 1.3rem;
@@ -503,6 +501,9 @@ h6{
     font-size: 1.2rem;
     color: #daf3ea;
 }
+.x{
+    color:white;
+}
 /*Dedicatoria*/
 footer{
     background-color: black;
@@ -515,7 +516,6 @@ footer{
     font-family: Manjari;
 }
 /*Redes*/
-
 .Redes-socialesB li {
     width: 1px;
 }
