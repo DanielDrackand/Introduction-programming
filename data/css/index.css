@@ -100,7 +100,7 @@ h1{
     margin-top: 15%;
 }
 .intro{
-    color: #daf3ea;
+    color: white;
     font-family: Manjari;
     margin-left:3%;
     margin-right: 1%;
@@ -109,7 +109,7 @@ h1{
     transition: all 2s;
 }
 .description{
-    color: #daf3ea;
+    color: white;
     font-family: Manjari;
     margin-top: 2%;
     margin-left:3%;
@@ -128,7 +128,7 @@ h1{
     opacity: 0;
 }
 .Inter{
-    color: #daf3ea;
+    color: white;
     font-family: Manjari;
     margin:3%;
     margin-top:7%;
@@ -200,7 +200,7 @@ h1{
     margin-left:18%;
 }
 .Introb,.Introc{
-    color: #daf3ea;
+    color: white;
     font-family: Manjari;
     font-size: 1.3rem;
 }
@@ -213,7 +213,7 @@ h1{
 }
 
 .descriptionb{
-    color: #daf3ea;
+    color: white;
     font-family: Manjari;
     font-size: 1.3rem;
     margin:3%;
@@ -230,7 +230,7 @@ h1{
 }
 .IntroD{
     margin:1%;
-    color: #daf3ea;
+    color: white;
     font-size: 1.3rem;
     font-family: Manjari;
 }
@@ -244,14 +244,14 @@ h1{
     color:whitesmoke;
 }
 h3{
-    color: #daf3ea;
+    color: white;
     font-size: 1.6rem;
     font-family: Manjari;
 }
 
 h4{
     text-align: center;
-    color: #daf3ea;
+    color: white;
     font-size: 1.6rem;
     font-family: Manjari;
 }
@@ -303,7 +303,7 @@ h4{
     border: solid 2px rgb(172, 120, 25);
     border-radius:5px;
     color: white;
-    width: 250px;
+    width: 260px;
     margin: 2%;
 }
 .c{
@@ -319,7 +319,7 @@ h4{
     border: solid 2px rgb(172, 25, 25);
     border-radius:5px;
     color: white;
-    width: 350px;
+    width: 345px;
     margin: 2%;
 }
 /*Animacion*/
@@ -358,7 +358,7 @@ h4{
     margin-left: 30%;
 }
 h5{
-    color: #daf3ea;
+    color: white;
     font-size: 1.6rem;
     font-family: Manjari;
     text-align: center;
@@ -369,7 +369,7 @@ h5{
     padding:1%;
     font-family: Manjari;
     font-size: 1.3rem;
-    color: #daf3ea;
+    color: white;
     flex-grow: 1;
     transition: all 1s;
     opacity:0;
@@ -380,21 +380,21 @@ h5{
     padding:1%;
     font-family: Manjari;
     font-size: 1.3rem;
-    color: #daf3ea;
+    color: white;
     flex-grow: 1;
     transition: all 1s;
 }
 h6{
     font-family: Manjari;
     font-size: 1.6rem;
-    color: #daf3ea;
+    color: white;
     text-align: center;
 }
 .Estancado{
     width:550px;
     font-family: Manjari;
     font-size: 1.3rem;
-    color: #daf3ea;
+    color: white;
     flex-grow: 1;
     margin-right: -1%;
     transition:all 1s;
@@ -404,7 +404,7 @@ h6{
     width:550px;
     font-family: Manjari;
     font-size: 1.3rem;
-    color: #daf3ea;
+    color: white;
     flex-grow: 1;
     transition:all 1s;
     opacity:1;
@@ -493,13 +493,13 @@ h6{
 .title6{
     font-family: Manjari;
     font-size: 1.6rem;
-    color: #daf3ea;
+    color: white;
     text-align:center;
 }
 .docp{
     font-family: Manjari;
     font-size: 1.2rem;
-    color: #daf3ea;
+    color: white;
 }
 .x{
     color:white;
